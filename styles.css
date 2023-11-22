@@ -1,0 +1,98 @@
+
+body{
+    background-color: papayawhip ;
+
+}
+
+
+
+
+.game-btn{
+    
+    padding: 10px;
+    text-align:center ;
+    /* color: peachpuff; */
+    
+}
+
+
+
+.btn:hover{
+    background-color: black;
+    color: peachpuff;
+}
+.btn {
+    cursor: pointer;
+    background-color: peachpuff;
+    /* color: peachpuff; */
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+    width:125px;
+    height: 125px;
+    border-color: black;
+    font-size: 100px;
+}
+
+
+
+.playGame,
+.reset-score
+{
+    cursor: pointer;
+    border-color: black;
+    /* border-radius: 500px; */
+    text-align:center;
+    background-color: pink;
+    width: 200px;
+    height: 75px;
+    margin: 5px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 10 px;
+
+}
+
+.playGame:hover,
+.reset-score:hover
+{
+    background-color: peachpuff;
+    border-radius: 500px;
+}
+
+
+.status{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin: none;
+    padding:none;
+}
+
+.winner{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding-top: 0px;
+    margin: 0px;
+    padding:0px;
+    
+}
+
+.xscore{
+    position:absolute;
+    top: 72px;
+    left:50px;
+    font-size: 50px;
+}
+
+.oscore{
+    position:absolute;
+    top: 72px;
+    right:50px;
+    font-size: 50px;
+
+}
+
